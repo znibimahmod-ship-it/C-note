@@ -1,0 +1,55 @@
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+	// this code will print my name in the screen 
+	std::cout << "mahmoud zenibi" << std::endl;
+	cout << "mahmoud zenibi" << endl;
+
+	/* this code will print my name in the screen*/
+	std::cout << "mahmoud zenibi \n";
+	cout << "mahmoud zenibi \n";
+
+	// ESCAPE SEQUENCE 
+	cout << "M1\\M2 \n";
+	cout << "M1\tM2 \n";
+	cout << "My name is \"Mahmoud\" \n";
+
+
+	//variable
+	int MyAge = 45;
+	char letter = 'm';
+	string Myname = "Mahmoud";
+	bool Myboolean = true;
+	//const
+    const float Pi = 3.14;
+	const double fullPi = 3.141592653589793;
+	const int MinutesPerHour = 60;
+	//display
+	cout << MyAge << endl;
+	cout << letter << endl;
+	cout << Myname << endl;
+	cout << Myboolean << endl;
+	cout << MinutesPerHour << endl << fullPi << endl << Pi << endl ; 
+
+	// +
+	int a = 10, b = 5, sum = a + b;
+	cout << sum << endl; // Output: 15
+
+	// reverce 
+	char char1 = 'A', char2 = 'B', char3 = 'C';
+	cout << char1 << char2 << char3 << " reversed is " << char3 << char2 << char1 << endl;
+
+	// reverce++
+	int K = 1, L = 2 , temp ;
+	 temp = K
+		, K = L
+		, L = temp;
+	cout << "K=" << K  <<endl<< "L=" << L << endl;
+
+
+	return 0;
+
+}
