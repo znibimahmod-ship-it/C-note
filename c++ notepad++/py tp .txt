@@ -1,0 +1,257 @@
+# n=int(input("donne le nomber: "))
+# s=0
+# i=1
+# while i<=n:
+#     s+=i
+#     i+=1
+
+# print("la somme= ",s)
+
+# for i in range(1,31):
+#     if i%3==0:
+#         continue
+#     print(i)
+
+# n=int(input("give me the number: "))
+# s=0 #9a3ida jam3
+# for i in range(1,n+1): # n+1 9a3ida f py
+#    s+=i # s = s + i
+#    print("condition nomber",i,"=",s)
+# print("la total somme est",s)
+
+
+# i=1
+# while i<6:
+#     print(i)
+#     i+=1
+
+
+# mot=str(input("done le mot: ")) # str +for = slsila 7orof
+# for letter in mot:
+#     print(letter)
+
+
+# mot=str(input("done le mot: "))
+# voyelles="aeiouAEIOU"
+# compteur=0
+# for letter in mot: #tb3 7orof
+#     if letter in voyelles: #7orof wax fihom voyelle
+#        compteur += 1 #ila l9a voy kizid b 1    
+# print("la mot(",mot,") contien (",compteur,") voyelles" )
+
+
+# mot=""
+# while mot !=  "stop":
+#     mot=str(input("donne le mot (stop pour arreter): "))
+#     print(mot)
+# print("boucle termini")
+
+
+# mot=""   ## mot kandiro "" / int kandiro =0
+# while mot !=  "fin":
+#     mot=str(input("donne le mot (fin pour arreter): "))
+#     if mot!="secret":
+#         print(mot)
+#     else:continue 
+# print("boucle termini")
+
+
+# mot = ""
+# while mot != "fin":
+#     mot = input("Donne le mot (fin pour arrêter): ")
+
+#     if mot == "fin":
+#         break
+
+#     if mot != "secret":
+#         print(mot)
+
+# print("Boucle terminée")
+
+
+# fruits=["apple","pear","banana","best"]
+# for fr in fruits:
+#     if fr=="banana":
+#         print("banana trouve (arrete)")
+#         break
+#     print(fr)
+
+
+# fruits=["apple","pear","banana","kiwi"]
+# for f in fruits:
+#     if "a" not in f:
+#      print(f)
+ 
+
+# n=0
+# s=0
+# while n >= 0:
+#     n=int(input("donne nomber (negetif to stop):  "))
+#     print(n)
+#     if n>=0:
+#       s += n
+# print("somme",s)
+
+
+# for n in range (1,11):
+#   print(n)
+
+
+# for n in range (1,21):
+#     if n%2==0:
+#         print(n)
+
+
+  
+# n=int(input("donne le nomber: "))
+# s=0
+# i=1
+# while i <= n:
+#     s+=i
+#     i+=1
+# print("la somme= ",s)
+   
+
+# n=int(input("donne nomber: "))
+# s=0
+# for i in range(1,n+1):
+#     s+=i
+# print("la somme= ",s)
+
+
+# pharse=str(input("donne la phrase: "))
+# print("longeur de phrase",len(pharse))
+# mot=str(input("donne mot: "))
+# if mot in pharse:
+#     print("yes (in)")
+# else:
+#     print("no (not in) ")
+
+
+# for i in range (1,31):
+#     if i%3==0:
+#         print(i)
+#     continue
+
+# nomber=[12,7,51,22,8,99,3]
+# for n in nomber:
+#     if n>50:
+#         print (n)
+#         break
+
+# mot=str(input("donne le mot: "))
+
+# if "a" in mot :
+#     print("a existe")
+# else:
+#     print("a n'existe pas")
+
+
+# liste=[1,2,3]
+# liste.append(4)
+# print(liste)
+# nombers=[1,2,3,4,5]
+# print(sum(nombers))
+# mot="mahmoud is pro"
+# print(len(mot))
+# print(mot.find("a"))
+# print(mot.upper())
+# print(mot.lower())
+# print(mot.replace("m","a"))
+# print(mot.split())
+# mot.endwith(".com")
+
+
+# num=int(input("donne le nomber day: "))
+# match num:
+#     case 1:
+#         print("sport")
+#     case 2:
+#         print("arab")
+#     case _:
+#         print("fr")
+
+
+# salaire=int(input("done le salaire: "))
+# if salaire<=4000:
+#     print("debutant")
+# elif salaire<=8000:
+#     print("conf")
+# else:
+#     print("senor")
+
+
+# nom = input("donne nom de fichier : ")
+# if nom.endswith(".png"):
+#     print("img")
+
+
+# def nomber_premier(n):
+#     for x in range(2,n):
+#         ext_premier= True
+#         for i in range(2,x):
+#             if x%i==0:
+#                 est_premier=False
+#                 break
+#             if est_premier:
+#                 print(x)
+# n=int(input("nomber premier"))
+# nomber_premier(n)
+
+
+#     #fonction
+# def pedro_ages(a,b):
+#     return f"Hello I'm {a+b}"
+
+# print(pedro_ages(10,9))
+
+# #labda
+# age=lambda a,b:f"hello I'm {a+b}years old"
+
+# print(age(10,9))
+
+
+# def factorielle(n):
+#     if n<0:
+#        return"invalived"
+#     f=1
+#     for i in range (1,n+1):
+#      f*=i
+#     return f
+    
+# print(factorielle(5))
+
+
+# mot=str(input("donne le mot: "))
+# consonnes="BCDFGHJKLMNPQRSTVWXZbcdfghjklmnpqrstvwxz"
+# compteur=0
+# for letter in mot:
+#     if letter in consonnes:
+#         compteur+=1
+
+# print("la mot ",mot,"contien",compteur,"consonnes")
+
+
+
+# for i in range(1,41):
+#     if i%4!=0:
+#         continue
+#     print(i)
+
+
+# mot=""
+# while "x" not in mot.lower():
+#     mot=str(input("donne le mot (x pour stop): "))
+#     print(mot)
+# print("boucle fini")
+
+
+# N=int(input("donne le nomber de jour (1/7): "))
+
+# match N:  #rah s7i7a
+#     case 1:
+#         print("lundi : sport")
+#     case 2:
+#         print("mardi : arabe")
+#     case _:
+#         print("numero invalide")
