@@ -1,0 +1,32 @@
+OUTPUT AND INPUT IN C++
+=======================
+
+OUTPUT (cout)
+=============
+Used to print text and values to the console
+
+Syntax: cout << "text" << variable << endl;
+
+Examples:
+  cout << "Hello, World!" << endl;  // prints text with newline
+  cout << 42;                        // prints number
+  cout << "Age: " << age << endl;    // prints text and variable
+
+Escape Sequences:
+  \n - newline
+  \t - tab
+  \\ - backslash
+
+INPUT (cin)
+===========
+Used to read input from user
+
+Syntax: cin >> variable;
+
+Examples:
+  cin >> age;                    // reads single integer
+  cin >> name;                   // reads single word
+  cin >> num1 >> num2;           // reads multiple values
+
+Note: Use getline() for reading entire lines with spaces
+      getline(cin, name);
