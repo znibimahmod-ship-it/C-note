@@ -1,0 +1,25 @@
+# Compiled files
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build directories
+build/
+dist/
+bin/
+obj/
+
+# Backup files
+*.bak
+*.backup
+*~
